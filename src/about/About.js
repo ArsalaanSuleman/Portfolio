@@ -6,6 +6,7 @@ export default class About extends Component {
   render() {
     return (
       <React.Fragment>
+        <AboutMenu />
         <Avatar page="about" />
       </React.Fragment>
     );
