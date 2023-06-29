@@ -6,7 +6,7 @@ import stack from "../assets/stack.png";
 import envelope from "../assets/envelope.png";
 import "../styles/nav.css";
 
-export default function  Nav() {
+export default function Nav() {
   const location = useLocation();
 
   const getNavPositionClass = () => {
@@ -20,8 +20,8 @@ export default function  Nav() {
       case "/projects":
         return "nav-projects";
 
-      case "/contacts":
-        return "nav-contacts";
+      case "/contact":
+        return "nav-contact";
 
       default:
         return "";
@@ -39,7 +39,7 @@ export default function  Nav() {
       case "/projects":
         return "PROJECTS";
 
-      case "/contacts":
+      case "/contact":
         return "CONTACT";
 
       default:
@@ -80,14 +80,3 @@ export default function  Nav() {
     </nav>
   );
 }
-
-/*   render() {
-    return (
-      <div>
-        <img src={astronautHelmet} />
-        <img src={deadEye} />
-        <img src={stack} />
-        <img src={envelope} />
-      </div>
-    );
-  } */
