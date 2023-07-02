@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   top: 30%;
-  right: 15vw;
+  right: 6vw;
   align-items: flex-end;
 }
 
@@ -128,7 +128,7 @@
   }
   .skill-menu {
     flex-direction: column;
-    left: 50%;
+    left: 25%;
     transform: translateX(-50%);
     align-items: center;
     top: 30%;
