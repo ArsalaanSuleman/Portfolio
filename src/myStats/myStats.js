@@ -9,7 +9,7 @@ const MyStats = () => {
         <span id="My__lines__thick"></span>
         <span id="My__lines__thin"></span>
       </div>
-      <h2>Student: Information Technology</h2>
+      <h2>Fullstack Developer</h2>
     </div>
   );
 };

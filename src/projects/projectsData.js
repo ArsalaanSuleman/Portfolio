@@ -5,27 +5,26 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
   1: {
-    title: "SoMe Platform",
+    title: "KnowYourCrypto",
     image: projectOne,
     description: (
       <React.Fragment>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Her kan du søke og finne kryptovaluta. Det er også mulig å legge til
+          nye kryptoer. (Backend: C#, Frontend: React-TypeScript)
         </p>
       </React.Fragment>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
   },
   2: {
-    title: "Productivity App",
+    title: "KarriereKobling",
     image: projectTwo,
     description: (
       <React.Fragment>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          En kunstig intelligens løsning, som kan hjelpe studenter med å skrive
+          skredderskydde søknader og cv-er samt hjelpe med Linkedin profilen og
+          intervju.
         </p>
       </React.Fragment>
     ),

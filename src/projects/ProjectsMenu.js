@@ -23,14 +23,7 @@ export default class ProjectsMenu extends Component {
         <h3>{project.title}</h3>
         <img src={project.image} alt={project.title}></img>
         <div>{project.description}</div>
-        <div className="link-container">
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            GITHUB
-          </a>
-          <a href={project.demo} target="_blank" rel="noopener noreferrer">
-            DEMO
-          </a>
-        </div>
+        <div className="link-container"></div>
       </div>
     ));
   };
