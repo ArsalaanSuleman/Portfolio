@@ -39,9 +39,6 @@ export default function Nav() {
       case "/projects":
         return "PROJECTS";
 
-      case "/contact":
-        return "CONTACT";
-
       default:
         return "";
     }
@@ -76,7 +73,6 @@ export default function Nav() {
       )}
       {renderNavLink("/skills", deadEye, "deadEye icon", "nav-skills")}
       {renderNavLink("/projects", stack, "stack icon", "nav-projects")}
-      {renderNavLink("/contact", envelope, "envelope icon", "nav-contact")}
     </nav>
   );
 }
