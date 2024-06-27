@@ -31,7 +31,7 @@ const projects = {
     github: "https://github.com",
     demo: "https://netlify.com",
   },
-  3: {
+  /*  3: {
     title: "Food Delivery App",
     image: projectThree,
     description: (
@@ -44,7 +44,7 @@ const projects = {
     ),
     github: "https://github.com",
     demo: "https://netlify.com",
-  },
+  }, */
 };
 
 export default projects;
